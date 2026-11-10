@@ -1,0 +1,11 @@
+# Port-owned content mod for the RFToolsBase 1.21-6.0.11 slice: the Machine
+# Infuser, the machine frame/base family and the dimensional shard. The models,
+# textures, blockstate, loot table, recipes and advancements are upstream's own
+# MIT assets, read from the exact ATM10 jar (see
+# ../../_shared/carry-work/rftoolsbase/SOURCE.md).
+id = "rftoolsbase"
+name = "RFToolsBase"
+version = "0.1.0"
+api = "0.2"
+side = "both"
+capabilities = ["registries"]

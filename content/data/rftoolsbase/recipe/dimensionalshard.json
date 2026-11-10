@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "minecraft:prismarine_shard",
+    "G": "#c:glass_blocks",
+    "X": "minecraft:glowstone_dust",
+    "d": "minecraft:diamond",
+    "e": "minecraft:emerald",
+    "g": "minecraft:gold_ingot",
+    "i": "#c:ingots/iron",
+    "q": "minecraft:quartz",
+    "r": "minecraft:redstone"
+  },
+  "pattern": [
+    "deg",
+    "irX",
+    "qCG"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:dimensionalshard"
+  }
+}

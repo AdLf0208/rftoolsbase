@@ -1,0 +1,9 @@
+{
+  "block.rftoolsbase.machine_infuser": "Machine Infuser",
+  "item.rftoolsbase.dimensionalshard": "Dimensional Shard",
+  "item.rftoolsbase.machine_base": "Machine Base",
+  "item.rftoolsbase.machine_frame": "Machine Frame",
+  "itemGroup.rftoolsbase": "RFTools Base",
+  "message.rftoolsbase.machine_infuser.gold": "Infusing bonus: reduced power consumption",
+  "message.rftoolsbase.machine_infuser.header": "With this machine you can improve most other machines in RFTools in various ways. This needs dimensional shards"
+}

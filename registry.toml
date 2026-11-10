@@ -1,0 +1,49 @@
+id = "rftoolsbase"
+kind = "native-mod"
+name = "rftoolsbase"
+summary = "A Horizon port of rftoolsbase."
+description = """
+A port of [rftoolsbase](McJtyMods/RFToolsBase) for Horizon.
+
+**Implemented so far**
+
+- The machine.** `rftoolsbase:machine_infuser`, a `BaseBlock` on the
+- `minecraft:stonecutter`** template (vanilla's only menued template with a
+- horizontal `facing`), standard-iron properties (hardness 2.0 / blast 2.0,
+- correct tool, metal sound), placed facing the player, with the jar's own cube
+- model and `block/infuser` front texture.
+- The buffer.** 60,000 FE (`infuserMaxRF`), declared through
+- `block_entity_energy` (API 142, `Capabilities.Energy.BLOCK`): any side may
+- fill it 600 FE a call (`infuserRFPerTick`), nothing may drain it
+
+**Not yet ported**
+
+- The infuser's block is infusable.** Its 1.21 registration drops upstream's
+- `.infusable()` flag (1.20's `createBlock()` sets it). Restored on purpose, so
+- the machine has a target and the cost curve is observable; the item's own
+- level only decides whether it can be raised (as upstream).
+- `facing` is horizontal (4 values).** `minecraft:stonecutter`, the pin's
+- only menued template, has four; upstream's `BaseBlock` faces all six ways, so
+- placing a machine facing up/down is lost (the blockstate drops those two
+- variants). Recorded rather than faked.
+
+Original copyright and licence notices are kept in this repository. Pinned to
+Horizon 1d63e0a and horizon-mixins 5a64af93. Help with the remaining slices is
+welcome.
+"""
+authors = ["AdLf0208"]
+owners = ["AdLf0208"]
+owner_ids = [107615167]
+license = "MIT"
+source = "https://github.com/AdLf0208/rftoolsbase"
+icon = "icons/rftoolsbase.png"
+categories = ["utility"]
+tags = ["port", "horizon"]
+
+[[versions]]
+version = "0.1.0"
+published = "2026-11-10"
+game = "26.3"
+file = "rftoolsbase.hnmod"
+sha256 = "fa10a94738c65e787a55de1eece435c74d3ee90014f01f8d32b66f28857ff6c8"
+changelog = "First release"

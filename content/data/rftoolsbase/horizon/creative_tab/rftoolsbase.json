@@ -1,0 +1,10 @@
+{
+  "icon": "rftoolsbase:machine_infuser",
+  "items": [
+    "rftoolsbase:machine_infuser",
+    "rftoolsbase:machine_frame",
+    "rftoolsbase:machine_base",
+    "rftoolsbase:dimensionalshard"
+  ],
+  "title": "itemGroup.rftoolsbase"
+}

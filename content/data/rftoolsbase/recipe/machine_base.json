@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "g": "minecraft:gold_nugget",
+    "s": "#c:stones"
+  },
+  "pattern": [
+    "ggg",
+    "sss"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rftoolsbase:machine_base"
+  }
+}

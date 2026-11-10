@@ -1,0 +1,17 @@
+[package]
+# Ported from: RFToolsBase 1.21-6.0.11 (McJtyMods/RFToolsBase, MIT),
+# Minecraft Java 1.21.1 NeoForge. Local-only until the maintainer approves.
+name = "horizon-rftoolsbase"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.95"
+license = "MIT"
+description = "RFToolsBase for Horizon: the machine frame/base family and the Machine Infuser"
+
+[lib]
+# This exact source is also injected as a same-crate module by horizon-mixins.
+path = "mixins/rftoolsbase/runtime.rs"
+
+[workspace]
+members = ["tools/audit"]
+resolver = "2"
